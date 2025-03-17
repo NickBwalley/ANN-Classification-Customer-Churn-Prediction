@@ -20,7 +20,7 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('ANN_Classification_Customer_Churn_Prediction')
+st.title('ANN-Classification-Customer-Churn-Prediction')
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
