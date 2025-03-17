@@ -6,6 +6,7 @@ This project uses an Artificial Neural Network (ANN) to predict customer churn b
 
 1. [Set-up Instructions](#set-up-instructions)
 2. [Classification vs Regression](#classification-vs-regression)
+3. [Understanding Dependent and Independent Features in Machine Learning](#dependent-vs-independent-features)
 
 ---
 
@@ -75,3 +76,74 @@ Since the outcome is a continuous number with no fixed categories, this is a **r
 - **Is the outcome one of a limited set of options?** → **Classification**
 
 Both techniques are powerful, but choosing the right one depends on the type of data and the prediction goal.
+
+## Understanding Dependent and Independent Features in Machine Learning
+
+In machine learning, **dependent** and **independent** features play a crucial role in understanding data relationships and building predictive models. Below are clear explanations and relevant examples to help you understand each term.
+
+## 1. Independent Features (Input Features)
+
+**Definition:** These are the features (variables) that are used to predict an outcome. They are also known as **predictors**, **input variables**, or **explanatory variables**.
+
+**Key Idea:** Independent features are what you feed into your model to make predictions.
+
+### ✅ Example (Bank Churn Prediction Model)
+
+Suppose you're building a model to predict if a customer will leave a bank (churn).
+
+**Independent features (Inputs):**
+
+- Age
+- Credit Score
+- Geography
+- Balance
+- Estimated Salary
+- Tenure
+- Number of Products
+- Has Credit Card (Yes/No)
+- Is Active Member (Yes/No)
+
+These features influence the final prediction but are not the actual outcome.
+
+---
+
+## 2. Dependent Feature (Target/Output Feature)
+
+**Definition:** This is the feature (variable) that you are trying to predict. It depends on the independent features.
+
+**Key Idea:** The dependent feature is the outcome or result you want your model to predict.
+
+### ✅ Example (Continuing the Bank Churn Example)
+
+**Dependent feature (Target):**
+
+- **Churn (Yes/No)** — The outcome that depends on the independent features.
+
+---
+
+## 3. Real-World Examples for Better Understanding
+
+Here are a few relatable examples to help distinguish the two:
+
+| **Scenario**                | **Independent Features (Inputs)**                     | **Dependent Feature (Target/Output)** |
+| :-------------------------- | :---------------------------------------------------- | :------------------------------------ |
+| House Price Prediction      | Number of rooms, Size of the house, Location          | House Price (in dollars)              |
+| Student Exam Performance    | Study hours, Sleep quality, Class attendance          | Exam Score (percentage)               |
+| Weather Forecasting         | Temperature, Humidity, Wind Speed                     | Chance of Rain (Yes/No)               |
+| E-commerce Sales Prediction | Product category, Customer location, Discount offered | Number of Sales (units sold)          |
+
+---
+
+## 4. Key Difference in a Nutshell
+
+- **Independent features** are the **cause** — the factors that influence the result.
+- **Dependent feature** is the **effect** — the result you are trying to predict.
+
+---
+
+## 5. Quick Tip to Identify Them:
+
+➡️ **Ask yourself:**
+
+- "What am I trying to predict?" → **Dependent Feature**
+- "What information do I have to make that prediction?" → **Independent Features**
