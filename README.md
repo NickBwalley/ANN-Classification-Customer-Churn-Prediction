@@ -6,7 +6,7 @@ This project uses an Artificial Neural Network (ANN) to predict customer churn b
 
 1. [Set-up Instructions](#set-up-instructions)
 2. [Classification vs Regression](#classification-vs-regression)
-3. [Understanding Dependent and Independent Features in Machine Learning](#dependent-vs-independent-features)
+3. [Understanding Dependent and Independent Features](#understanding-dependent-and-independent-features)
 
 ---
 
@@ -77,7 +77,7 @@ Since the outcome is a continuous number with no fixed categories, this is a **r
 
 Both techniques are powerful, but choosing the right one depends on the type of data and the prediction goal.
 
-## Understanding Dependent and Independent Features in Machine Learning
+## Understanding Dependent and Independent Features
 
 In machine learning, **dependent** and **independent** features play a crucial role in understanding data relationships and building predictive models. Below are clear explanations and relevant examples to help you understand each term.
 
