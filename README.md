@@ -1,6 +1,7 @@
 # ANN-Classification-Customer-Churn-Prediction
 
 This project uses an Artificial Neural Network (ANN) to predict customer churn based on input features such as Geography, Gender, Age, Balance, CreditScore, EstimatedSalary, Tenure, Number of Products, HasCreditCard, and IsActiveMember. The model classifies whether a customer is likely to churn or stay.
+![Customer Churn Prediction Model](https://raw.githubusercontent.com/NickBwalley/ANN-Classification-Customer-Churn-Prediction/master/Customer-churn-predictor-img.jpeg)
 
 ## Table of Contents
 
